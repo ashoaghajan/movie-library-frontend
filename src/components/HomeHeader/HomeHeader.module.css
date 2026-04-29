@@ -1,0 +1,29 @@
+.header {
+    position: relative;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-color: #111827;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    padding: 24px;
+}
+
+.left {
+    max-width: 560px;
+}
+
+.select {
+    width: 220px;
+}
